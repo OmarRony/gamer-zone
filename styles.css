@@ -92,6 +92,7 @@ li>a{
     .header{
         flex-direction: column;
         margin-top: 20px;
+        height: 0px;
     }
   
 nav{
@@ -114,6 +115,7 @@ nav{
     .header{
         flex-direction: column;
         margin-top: 40px;
+        height: 0px;
     }
   
 nav{
