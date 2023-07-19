@@ -186,10 +186,51 @@ li>a{
     font-size:1.2rem;
     font-weight:400;
 }
+/* section style ends here */
+/* style section start here */
+.play-section{
+    height: 100vh;
+    margin-top:100px;
+}
+.play-instant-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:5px;
+    gap:120px
+}
+.play-instant-section,img{
+    width: 90%;
+    margin-left: 50px;
+
+}
+.play-content{
+    margin-left: 170px;
+}
+.doll-image{
+    width: 318px;
+    height: 365px;
+    position: relative;
+    left: 600px;
+    bottom: 290px;
+}
 
 
+ .play-instant-section,h3 ,p{ 
+    text-align: center; 
+ }      
 
+.play-instant-section,h3{
+    
+    font-size: 3rem;
+    font-weight: 700;
+}
 
+.instant-color{
+    color: #F948B2;
+
+}
+/* section style end here */
 
 
 
@@ -276,21 +317,37 @@ nav{
 font-size: .8rem;
 }
 
+.play-instant-section{
+    flex-direction: column;
+   
+    
+}
+.play-section{
+    margin-right: 200px;
+    position: relative;
+    top:150px;
 
+}
 
+.play-content h3{
+    font-size: 1.2rem;
 
+}
+.play-content p{
+    font-size: .8rem;
+}
+.play-section,.play-images{
+width: 100%;
+position: relative;
+bottom: 150px;
 
+}
+.play-section,.doll-image{
 
-
-
-
-
-
-
-
-
-
-
+width: 60%;
+position: relative;
+left:10px;
+}
 
 
 
@@ -300,6 +357,15 @@ font-size: .8rem;
 
 
 }
+
+
+
+
+
+
+
+
+
 
 /* responsive for medium devices tab */
 @media screen and (min-width: 576px) and (max-width: 940px) {
