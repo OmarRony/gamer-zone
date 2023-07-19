@@ -232,8 +232,47 @@ li>a{
 }
 /* section style end here */
 
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    
+}
 
+button>img{
+    width: 15%;
+    position: relative;
+    right: 30px;
+    
+}
+.button-section>button{
+    border: none;   
+    
+}
+button>a{
+   
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    
+   
+}
+button{
+   
+    height: 80px;
+    width: 243px;
+    margin: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
 
+button:hover{
+    background-color: bisque;
+    border: 2px solid #FF42A5;
+    color:red;
+}
 
 
 
@@ -305,7 +344,7 @@ nav{
     font-size: 2rem;
 }
 .online-text p{
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 .card{
     flex-direction: column;
@@ -314,7 +353,7 @@ nav{
 
 }
 .card p{
-font-size: .8rem;
+font-size: 0.8rem;
 }
 
 .play-instant-section{
@@ -330,11 +369,11 @@ font-size: .8rem;
 }
 
 .play-content h3{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
 }
 .play-content p{
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
 .play-section,.play-images{
 width: 100%;
@@ -343,30 +382,19 @@ bottom: 150px;
 
 }
 .play-section,.doll-image{
-
 width: 60%;
 position: relative;
-left:10px;
+left: 10px;
+}
+.button-section{
+    flex-direction: column;
+    position: relative;
+    top: 300px;
 }
 
 
 
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 /* responsive for medium devices tab */
 @media screen and (min-width: 576px) and (max-width: 940px) {
 
@@ -403,8 +431,7 @@ nav{
     display: inline;
     
 }
-/* .online-text h3{ */
-    /* font-size: 2rem; */
+
 .online-text p{
     font-size: 1.2rem;
 }
@@ -415,7 +442,45 @@ nav{
 .card p{
 font-size: .8rem;
 }
+.play-instant-section{
+    flex-direction: column;
+   
+    
+}
+.play-section{
+    margin-right: 200px;
+    position: relative;
+    top:150px;
 
+}
+
+.play-content h3{
+    font-size: 2rem;
+
+}
+.play-content p{
+    font-size: 1rem;
+}
+.play-section,.play-images{
+width: 100%;
+position: relative;
+bottom: 150px;
+
+}
+.play-section,.doll-image{
+
+width: 80%;
+position: relative;
+left:0px;
+
+
+}
+.button-section{
+    flex-direction: column;
+    position: relative;
+    top: 800px;
+    margin-right: 150px;
+}
 
 
 
