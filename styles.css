@@ -5,10 +5,6 @@ font-family: 'Work Sans';
 margin:0;
 padding: 0;
 }
-body{
-    
- 
-}
 /* header section start from here */
 .header{
     display: flex;
@@ -273,15 +269,41 @@ button:hover{
     border: 2px solid #FF42A5;
     color:red;
 }
+.footer{
+    height: 650px;
+    background-color:#0B0223;
+    color: white;
+    
+}
+.footer, h3{
+    text-align: center;
+}
+.footer-logo{
+    width: 90px;
+    height: 40px;
+}
+.social-media>img{
+    width: 5%;
+}
+.logo-tex{
+    color:#dddbe4;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.logo-colo{
+    color: #FF42A5; 
+}
 
+.story,li{
 
+    list-style: none;
 
-
-
-
-
-
-
+}
+.story{
+    color:white;
+}
 
 
 
